@@ -1,0 +1,31 @@
+.delete-confirm {
+    background-color: #6c757d;
+    color: white;
+    font-size: 1.2rem;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.delete-confirm button {
+    margin-right: 10px;
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    padding: 5px 10px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.delete-confirm button:hover {
+    background-color: #c82333;
+}
+
+.delete-confirm .cancel {
+    background-color: #adb5bd;
+}
+
+.delete-confirm .cancel:hover {
+    background-color: #919ca6;
+}
